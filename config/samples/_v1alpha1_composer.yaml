@@ -1,0 +1,6 @@
+apiVersion: serviceconnector.dev/v1alpha1
+kind: Composer
+metadata:
+  name: composer-sample
+spec:
+  # TODO(user): Add fields here

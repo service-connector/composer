@@ -1,0 +1,18 @@
+domain: serviceconnector.dev
+layout:
+- go.kubebuilder.io/v4-alpha
+- grafana.kubebuilder.io/v1-alpha
+plugins:
+  grafana.kubebuilder.io/v1-alpha: {}
+projectName: composer
+repo: github.com/service-connector/composer
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: serviceconnector.dev
+  kind: Composer
+  path: github.com/service-connector/composer/api/v1alpha1
+  version: v1alpha1
+version: "3"
